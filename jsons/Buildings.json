@@ -267,7 +267,8 @@
 			{
 				"text": "Diplomatic capital of Kingdom. Place where ambassadors from all over the world have talks with our Representation."
 			}]
-},//Wonders "Unbuildable <if [Ally with Isolationists] is constructed>"]
+},	
+// Extra Wonders 
 
 	{
 		"name": "Etabilish Crystal Quarry",
