@@ -10,7 +10,7 @@
 		"Must be adjacent to [0] [Tundra] tiles",
 		"Must be adjacent to [0] [Permafrost] tiles",
 		"Occurs in groups of [4] to [4] tiles",
-		"Must be adjacent to [0] [Coast] tiles",],
+		"Must be adjacent to [0] [Coast] tiles"],
 		"turnsInto": "Wasteland",
 		"impassable": true,
 		"unbuildable": true,
