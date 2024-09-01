@@ -90,6 +90,10 @@
 		"[-50]% Great Person generation [in all cities]",
 
  ]
+ "cities": [ 
+    "House"],
+"spyNames": ["M", "E", "V", "R", "H", "O","A", "L", "s", "d"],
+
 
 
 
@@ -98,17 +102,4 @@
 
 
 }
-  //
-//		"name": "The Sounds",
-//		"adjective": ["Vocaloid"],
-//		"cityStateType": "Culture",
-//		"style": "",
-//		"uniques": ["Starts with [Secrets of the Past]","Starts with [Radio]"],
-//		"declaringWar": "Let the music flow freely.",
-//		"attacked": "Sounds of your despair will be heard for long time.",
-//		"defeated": "Please... Spare our voices",
-//		"outerColor": [0, 0, 0],
-//		"innerColor": [33, 43, 240],
-//		"cities": ["Color of Noise"]
-//	
 ]
