@@ -67,39 +67,5 @@
     ]
     "spyNames": [ "Stormwatch", "Terent", "Klint", "Yenner", "Miller","Wellsman","Voiceover","Oscar", "Melio", "Baron Von Baron"]
   },
-{
-    "name": "All-in-One Company",
-    "leaderName":"House Master",
-    "adjective": ["Host"],
-    "preferredVictoryType": "Diplomatic", 
-    "personality": "House Holder"
-    "favoredReligion": "Capitalism",
-    "startIntroPart1":""
-    "attacked": "."
-    "defeated": ".",
-    "introduction":" W"
-    "neutralHello": "?"
-    "hateHello": ""
-    "tradeRequest": "Wo"
- "outerColor": [153, 109, 171]
-    "innerColor":  [127, 171, 109],
-    "uniqueName":"Everything you want"
-   "uniques":[	"[+2] Movement <in [Road] tiles> <for [All] units>",
-		"[+1] Movement <in [Railroad] tiles> <for [All] units>",
-		"Comment [Cities Start with extra population]",
-		"[-50]% Great Person generation [in all cities]",
 
- ]
- "cities": [ 
-    "House"],
-"spyNames": ["M", "E", "V", "R", "H", "O","A", "L", "s", "d"],
-
-
-
-
-
-
-
-
-}
 ]
