@@ -67,6 +67,35 @@
     ]
     "spyNames": [ "Stormwatch", "Terent", "Klint", "Yenner", "Miller","Wellsman","Voiceover","Oscar", "Melio", "Baron Von Baron"]
   } 
+   {
+    "name": "All-in-One Company",
+    "leaderName":"HouseMaster",
+    "adjective": ["Host"],
+    "preferredVictoryType": "Diplomatic", 
+    "favoredReligion": "Naturism",
+     "startIntroPart1": "i " ,
+    "startIntroPart2": "d."
+    "declaringWar": "l"
+    "attacked": "W"
+    "defeated": "e",
+    "introduction":" t"
+    "neutralHello": "?"
+    "hateHello": "Y"
+    "tradeRequest": "o?"
+    "outerColor": [6, 132, 120]
+    "innerColor":  [132, 6, 19],
+    "uniqueName":"Everything you wnat"
+   "uniques":[  
+     "[+2] Movement <in [Road] tiles> <for [All] units>",
+		"[+1] Movement <in [Railroad] tiles> <for [All] units>",
+    "[-50]% Great Person generation [in all cities]",
+
+]
+    "cities": [ 
+    "The Merra"
+    ]
+    "spyNames": [ "Sth", "Tert", "int", "Yeer", "Mr","Wman","Vor","Oar", "Mo", "Bron"]
+  },
 //
 //		"name": "The Sounds",
 //		"adjective": ["Vocaloid"],
