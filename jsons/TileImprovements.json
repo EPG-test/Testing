@@ -17,6 +17,14 @@
 
 
 	"Removes removable features when built",
-	"Pillaging this improvement yields approximately [+20 Gold, +30 Culture]"]
-  }
+	"Pillaging this improvement yields approximately [+20 Gold, +30 Culture]"],
+  },
+	
+		"name": "Knowledge site",
+    		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Great Improvement",
+			"Gives a defensive bonus of [10]%",
+	"[+1 Science] for each adjacent [Academy] <after discovering [Laboratory]>",
+	"Removes removable features when built",
+	"Pillaging this improvement yields approximately [+30 Science"]
  ]
