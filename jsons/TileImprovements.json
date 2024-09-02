@@ -20,11 +20,29 @@
 	"Pillaging this improvement yields approximately [+20 Gold, +30 Culture]"]
   },
 	
-{		"name": "Knowledge site",
+{		"name": "Knowledge Site",
     		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Great Improvement",
 			"Gives a defensive bonus of [10]%",
 	"[+1 Science] for each adjacent [Academy] <after discovering [Laboratory]>",
 	"Removes removable features when built",
-	"Pillaging this improvement yields approximately [+30 Science"]}
- ]
+	"Pillaging this improvement yields approximately [+30 Science]"
+},
+ {		"name": "Industrial Zone",
+    		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Great Improvement",
+			"Gives a defensive bonus of [10]%",
+	"[+1 Science] for each adjacent [Manufactory] <after discovering [Manufacturing]>",
+	"Removes removable features when built",
+	"Pillaging this improvement yields approximately [+20 Science, +20 Gold]"
+},
+	{		"name": "Farm Lands",
+    		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Great Improvement",
+			"Gives a defensive bonus of [10]%",
+	"[+1 Science] for each adjacent [Factory farm] <after discovering [Land Remediation]>",
+	"Removes removable features when built",
+	"Pillaging this improvement yields approximately [+30 Food]"
+},
+
+]
