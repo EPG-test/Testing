@@ -297,7 +297,22 @@
 "Automatically built in all cities where it is buildable",
 ]
 	"quote": "."
-},
+},	
+{ "name": "Systemic Rejuvenation",
+	
+	"isNationalWonder": true,
+	"cost":30,
+	"replaces":"Search for Survivors",
+	"uniqueTo": "All-in-One Company",
+"specialistSlots": { "Scientist": 1 },
+"specialistSlots": { "Engineer": 1 },
+"specialistSlots": { "Merchant": 1 },
+"specialistSlots": { "Administrator": 1 },
+"specialistSlots": { "Supervisor": 1 },
+
+	"uniques":["[1] free [Civilian Convoy] units appear"]
+		
+	},
 {
 		"name": "Food Facility",
 		"replaces":"Food Store",
