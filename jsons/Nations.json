@@ -1,8 +1,8 @@
 [
   {
-    "name": "The Forgotten Kingdom of Wasteland",
+    "name":"The Forgotten Kingdom of Wasteland",
     "leaderName":"The King",
-    "adjective": ["King"],
+    "adjective": ["Forgotten"],
     "preferredVictoryType": "Diplomatic", 
     "personality": "Monarch"
     "favoredReligion": "Naturism",
@@ -66,47 +66,35 @@
     "Verdance",
     ]
     "spyNames": [ "Stormwatch", "Terent", "Klint", "Yenner", "Miller","Wellsman","Voiceover","Oscar", "Melio", "Baron Von Baron"]
-  } 
-   {
+  } 	
+{
     "name": "All-in-One Company",
-    "leaderName":"HouseMaster",
+    "leaderName":"Alione Cynth",
     "adjective": ["Host"],
     "preferredVictoryType": "Diplomatic", 
-    "favoredReligion": "Naturism",
-     "startIntroPart1": "i " ,
-    "startIntroPart2": "d."
-    "declaringWar": "l"
-    "attacked": "W"
-    "defeated": "e",
-    "introduction":" t"
+    "personality": "House Master"
+    "favoredReligion": "Capitalism",
+    "startIntroPart1":""
+    "attacked": "."
+    "defeated": ".",
+    "introduction":" W"
     "neutralHello": "?"
-    "hateHello": "Y"
-    "tradeRequest": "o?"
-    "outerColor": [6, 132, 120]
-    "innerColor":  [132, 6, 19],
-    "uniqueName":"Everything you wnat"
-   "uniques":[  
-     "[+2] Movement <in [Road] tiles> <for [All] units>",
-		"[+1] Movement <in [Railroad] tiles> <for [All] units>",
-    "[-50]% Great Person generation [in all cities]",
+    "hateHello": ""
+    "tradeRequest": "Wo"
+ "outerColor": [33, 23, 56]
+    "innerColor":  [142, 112, 19],
+    "uniqueName":"Everything you want"
+   "uniques":[			
 
-]
-    "cities": [ 
-    "The Merra"
-    ]
-    "spyNames": [ "Sth", "Tert", "int", "Yeer", "Mr","Wman","Vor","Oar", "Mo", "Bron"]
-  },
-//
-//		"name": "The Sounds",
-//		"adjective": ["Vocaloid"],
-//		"cityStateType": "Culture",
-//		"style": "",
-//		"uniques": ["Starts with [Secrets of the Past]","Starts with [Radio]"],
-//		"declaringWar": "Let the music flow freely.",
-//		"attacked": "Sounds of your despair will be heard for long time.",
-//		"defeated": "Please... Spare our voices",
-//		"outerColor": [0, 0, 0],
-//		"innerColor": [33, 43, 240],
-//		"cities": ["Color of Noise"]
-//	
+"[+2] Movement <in [Road] tiles> <for [All] units>",
+"[+1] Movement <in [Railroad] tiles> <for [All] units>",
+"Gain a free [Housing facilities] [in all cities]",
+"Comment[Cities Start with extra population]",
+"[-80]% Great Person generation [in all cities]",
+"[+50]% maintenance costs <for [Civilian] units>"
+ "[+50]% Culture cost of natural border growth [in all cities]",]
+ "cities": [ 
+    "House"],
+"spyNames": ["M", "E", "V", "R", "H", "O, "A", "L", "s", "d"],
+}
 ]

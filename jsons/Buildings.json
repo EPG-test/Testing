@@ -302,15 +302,63 @@
 		"name": "Food Facility",
 		"replaces":"Food Store",
 		"uniqueTo": "All-in-One Company",
+		"food": 1,
 		"cost": 15,
 		"hurryCostModifier": -25,
 		"uniques": [
 			"[25]% Food is carried over after population increases [in this city]",
 			"[+1 Food] [in this city] <with [Salt]>",
-			"[+1 Food] [in this city] <with [Hogs]>",	
-			"[+1 Food] [in this city] <with [Goats]>",	
-			"[+1 Food] [in this city] <with [Cattle]>"	]
+			"[-1 Production, +1 Gold] [in this city] <with [Alcohol]>",
+			"[+1 Gold] [in this city] <with [Narcotics]>",
+			"[+1 Gold] [in this city] <with [Refined Narcotics]>"	]
 	},
+	{
+		"name":"Housing facilities",
+		"uniqueTo": "All-in-One Company",
+		"uniques": ["[+1] population [in this city]",
+		"Unsellable",
+		"Destroyed when the city is captured",]	   
+	},
+{
+		"name":"Upper Management Division",
+		"uniqueTo": "All-in-One Company",
+		"replaces":"Listening Post",
+		"maintenance": 1,
+		"uniques": [
+		"[-25]% enemy spy effectiveness [in this city]",
+		"Hidden when espionage is disabled",
+		"[-50]% Unhappiness from [Specialists] [in this city] <after discovering [Social Engineering]>",
+		"Destroyed when the city is captured"	]	   
+	"requiredTech": "Civil Service"
+},
+
+{
+		"name": "Solution Camp",
+		"replaces": "Prison Camp",
+		"uniqueTo": "All-in-One Company",
+
+		"cost": 50,
+		"uniques": [
+			"Remove extra unhappiness from annexed cities",
+			"Can only be built <in [Annexed] cities>",
+			"Provides [1] [Slaves]",
+			"[-1] population [in this city]"
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Construction"
+	},
+{
+		"name": "Business zone",
+		"replaces": "Market",
+		"hurryCostModifier": 25,
+		"gold":1
+		"uniques": [
+			"[+1 Gold] from [Luxury resource] tiles [in this city]"
+		]
+"requiredTech": "Trade",
+
+	},
+
 {
 		"name": "Knowledge Zone",
 		"replaces":"Library",
@@ -319,7 +367,7 @@
 		"uniques": [
 			"[+1 Science] [in this city] <when above [0] [Power]>",
 			"[+1 Science] per [2] population [in this city]",
-			"[+1 Science] from [Academy] tiles [in this city]",
+			"[+1 Science] from [Knowledge site] tiles [in this city]",
 			"Creates a [Knowledge site] improvement on a specific tile",
 		],
 		"requiredTech": "Writing",
@@ -329,8 +377,47 @@
 			}
 		]
 	},
-
-
+{
+		"name": "Collegium Companium",
+		"maintenance": 1,
+		"replaces":"University",
+		"hurryCostModifier": 15,
+		"percentStatBonus": { "science": 33 },
+		"specialistSlots": { "Scientist": 1 },
+		"uniques": [
+			"[+2 Science] from [Knowledge site] tiles [in this city]",
+			"[+1 Science] [in this city] <when above [0] [Power]>",
+			"Only available <in cities with a [Library]>"
+		],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Site Lab",
+		"replaces":"Research Lab",
+		"percentStatBonus": { "science": 50 },
+		"specialistSlots": { "Scientist": 1 },
+		"maintenance": 2,
+		"uniques": [
+			"[+3 Science] from [Knowledge site] tiles [in this city]",
+			"Only available <in cities with a [University]>",
+			"Consumes [1] [Power]"
+		],
+		"requiredTech": "Laboratory"
+	},
+{
+		"name": "Information Transfering sector",
+		"replaces":"Decryption Center",
+		"specialistSlots": { "Scientist": 1 },
+		"uniques": [
+			"Consumes [1] [Encrypted Data]",
+			"[+2 Science] from [Knowledge site] tiles [in this city]",
+			"[+1 Science] [in this city] <when above [0] [Power]>",
+			"[+1 Science] [in this city] <when above [0] [Encrypted Data]>",
+			"Only available <in cities with a [Data Center]>"
+		],
+		"percentStatBonus": { "science": 25 },
+		"requiredTech": "Decryption"
+	},
 
 ]
   
