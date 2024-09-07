@@ -298,6 +298,8 @@
 ]
 	"quote": "."
 },	
+
+
 { "name": "Systemic Rejuvenation",
 	
 	"isNationalWonder": true,
@@ -308,7 +310,6 @@
 "specialistSlots": { "Engineer": 1 },
 "specialistSlots": { "Merchant": 1 },
 "specialistSlots": { "Administrator": 1 },
-"specialistSlots": { "Supervisor": 1 },
 
 	"uniques":["[1] free [Civilian Convoy] units appear"]
 		
