@@ -1,0 +1,8 @@
+[
+	{
+		"name": "Supervisor",
+		"food": -4
+		"greatPersonPoints": { "Great Engineer": 1, "Great Scientist": 1, "Great Merchant": 1, "Great Administrator": 1  },
+		"color": [71, 63, 18]
+	},
+	]

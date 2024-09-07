@@ -1,0 +1,441 @@
+[
+  {
+"name": "Golden Castle",
+"isNationalWonder": true,
+"replaces": "Bomb Shelter",
+"uniqueTo": "The Forgotten Kingdom of Wasteland",
+"production": 3,
+"science": 3,
+"food": 2,
+"culture": 1,
+"gold": 1,
+"cost": 1,
+"cityStrength": 7,
+"cityHealth": 70,
+ "uniques": ["Indicates the capital city",
+ ]
+  },
+
+{ "name": "The Blue Wall" 
+"uniqueTo": "The Forgotten Kingdom of Wasteland",
+"cost":0
+"isWonder": true,
+
+"cityStrength": 5,
+"cityHealth": 100,
+ 
+	
+"uniques":[
+"Comment [2 free Guardsman units appear]",
+"[2] free [Spearman] units appear <hidden from users>",
+"[+2] Unit Supply",
+"Gain a free [Walls] [in this city]",
+"Can only be built <in [Capital] cities>",
+"Automatically built in all cities where it is buildable",
+]
+	"quote": "Sometimes we feel familiar things. Sounds, smells, even touch. Most of feelings should resemble places improtant to a preson. And you know what,  Here I feel at home."
+}
+
+	
+	{ "name": "Decree of Expansion",
+	
+	"isNationalWonder": true,
+	"cost":40,
+	"replaces":"Search for Survivors",
+	"uniqueTo": "The Forgotten Kingdom of Wasteland",
+	"uniques":["[1] free [Civilian Convoy] units appear",
+		"[1] free [Great Representative] units appear"]
+		
+	},
+	{
+		"name":"Castle",
+		"uniqueTo": "The Forgotten Kingdom of Wasteland",
+		"requiredTech": "Engineering",
+		"cityStrength": 2,
+		"cost": 120,
+		"cityHealth": 40,
+		"maintenance": 1,
+		"uniques": [
+		"Only available <in cities with a [Defensive Emplacements]>",
+		"Only available <in cities without a [Bomb Shelter]> <hidden from users>",
+		"Destroyed when the city is captured",]	   
+	},
+	{
+		"name":"Bastions"
+		"uniqueTo": "The Forgotten Kingdom of Wasteland",
+		"requiredTech": "Engineering",
+		"cityStrength": 4,
+		"cityHealth": 50,
+		"maintenance": 1,
+		"cost": 150,
+		"uniques": [
+		"Only available <in cities with a [Defensive Emplacements]>",
+		"Destroyed when the city is captured"]
+	},
+	// Idea: Buildable only with Representation Center also given +1 yield
+	{
+		"name": "King's Residence",
+		"replaces": "Town Hall",
+		"uniqueTo": "The Forgotten Kingdom of Wasteland",
+		"maintenance": 1,
+		"specialistSlots": {"Administrator": 1},
+		"happiness": -1,
+		"uniques": [
+		"[-25]% Culture cost of natural border growth [in this city]",
+		"[-25]% Gold cost of acquiring tiles [in this city]",
+		"[+1 Gold] per [4] population [in this city]",
+		"[+1 Happiness, +2 Culture] [in this city] <when above [0] [Power]>"],
+		"requiredTech": "Civil Service",
+	
+		"civilopediaText": [
+			{
+				"text": "Building where King can rest from his political efforts. Meanwhile constant influx of royal rule leads common people into unrest"
+			}]
+			}
+	
+	{
+		"name": "Heavy MetalWorks",
+		"replaces": "Blast Furnace"
+		"uniqueTo": "The Forgotten Kingdom of Wasteland",
+		"percentStatBonus": {"production": 10},
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredNearbyImprovedResources": ["Scrap", "Metal"],
+		"uniques": [
+			"[-1 Food, +2 Production, -1 Gold] from [Scrap] tiles [in this city]",
+			"[-1 Food, +2 Production, -1 Gold] from [Metal] tiles [in this city]",
+			"Consumes [1] [Coal]"
+		],
+		"requiredTech": "Steel"
+	},
+	//Advisors 
+	
+	// Sovereignity or Supermacy?,
+	{
+		"name":"Military Advisor"
+		"uniqueTo": "The Forgotten Kingdom of Wasteland",
+		"requiredTech": "Civil Service",
+		"uniques": [
+		"[+20]% Strength <for [Land] units> <when fighting in [Foreign Land] tiles>",
+		"[+5]% Strength <for [Personnel] units> <when fighting in [Foreign Land] tiles>",
+		"[-20]% Strength <for [Land] units> <when fighting in [Friendly Land] tiles>",
+		
+		"Only available <in cities without a [Cultural Advisor]> <hidden from users>",
+		"Only available <in cities without a [Economic Advisor]> <hidden from users>",
+		"Only available <in cities without a [Research Advisor]> <hidden from users>",
+		
+		"Only available <if [Search for Survivors] is constructed>",
+		"Can only be built <in [Capital] cities>",
+		"Destroyed when the city is captured"]
+		
+	},
+	// Bad balancing possibility. -25% when fithing barbarians?,
+	{"name":"Cultural Advisor"
+		"uniqueTo": "The Forgotten Kingdom of Wasteland",
+		"requiredTech": "Civil Service",
+		"uniques": [
+		"[+1 Culture] from every [Walls]",
+		"[+1 Culture] from every [Defensive Emplacements]",
+		"[+1 Culture] from every [Hardened Defenses]",
+		"[+1 Culture] from every [Bunker]",
+		"[+1 Culture] from every [Battery]",
+		"[+4 Culture] from every [Active Denial System]",
+		"[+5]% [Culture] from every [Castle]",
+		"[+5]% [Culture] from every [Golden Castle] <hidden from users>",
+		"[+5]% [Culture] from every [Bastions]",
+		
+		
+		"[-30]% City Strength from defensive buildings",
+		"[-40]% Strength for cities <with a garrison> <when attacking> <after adopting [Castle Doctrine]>",
+		"[-20]% Strength for cities <when attacking>",
+				
+		"Only available <in cities without a [Military Advisor]> <hidden from users>",
+		"Only available <in cities without a [Economic Advisor]> <hidden from users>",
+		"Only available <in cities without a [Research Advisor]> <hidden from users>",
+		
+		"Only available <if [Search for Survivors] is constructed>",
+		"Can only be built <in [Capital] cities>",
+		"Destroyed when the city is captured"]
+	},
+// I wish Gold slider could be removed. Use it without abusing gold slider. Because of the 'Proklyatyye' (Damned) Gold slider i want to give it a production minus,
+	{
+		"name":"Economic Advisor"
+		"uniqueTo": "The Forgotten Kingdom of Wasteland",
+		"requiredTech": "Civil Service",
+		"uniques": [
+		"[+1 Gold] from every [Moisture trap]",
+		"[+1 Gold] from every [Market]",
+		"[+2 Gold] from every [Water Storage]",
+		"[+2 Gold] from every [Water Plant]",
+		"[+2 Gold] from every [Greywater Treatment Plant]",
+		"[+3 Gold] from every [Desalination Plant]",
+		"[+5 Gold] from every [Rainwater Purifier]",
+		"[+1]% [Gold] from every [Market]",
+		"[+1]% [Gold] from every [Water Storage]",
+		"[+1]% [Gold] from every [Water Plant]",
+		"[+1]% [Gold] from every [Greywater Treatment Plant]",
+		"[+1]% [Gold] from every [Desalination Plant]",
+		"[+1]% [Gold] from every [Rainwater Purifier]",
+		"[Gold] cost of purchasing items in cities [+10]%",
+		"[-15]% Production when constructing [All] buildings [in all cities]",
+		"[-25]% Production when constructing [All] units [in all cities]",
+	
+		"Only available <in cities without a [Cultural Advisor]> <hidden from users>",
+		"Only available <in cities without a [Military Advisor]> <hidden from users>",
+		"Only available <in cities without a [Research Advisor]> <hidden from users>",
+		
+		"Only available <if [Search for Survivors] is constructed>",
+		"Can only be built <in [Capital] cities>",
+		"Destroyed when the city is captured"]
+		
+	},
+	
+	// Fekin gold slider balance nightmare. Can't make it better bc of it
+	// I wish Gold slider could be removed. Use it without abusing gold slider. Because of the 'Proklyatyye' (Damned) Gold slider i want to give it a production minus,
+	{
+		"name":"Research Advisor"
+		"uniqueTo": "The Forgotten Kingdom of Wasteland",
+		"requiredTech": "Civil Service",
+		"uniques": [
+		"[+1 Science] from every [Library]",
+		"[+1 Science] from every [University]",
+		"[+1 Science] from every [Public School]",
+		"[+1 Science] from every [Research Lab]",
+		"[+1 Science] from every [Data Center]",
+		"[+10]% [Science] [in all cities] <during the [Neofeudal era]>",
+		"[+7]% [Science] [in all cities] <during the [Rebuilding era]>",
+		"[+5]% [Science] [in all cities] <starting from the [Industrial era]>",
+		"[-1 Culture] [in all Cities]",
+		"[-5 Gold] [in all Cities]",
+		"[-10]% [Gold] [in all Cities]",
+		
+		"Only available <in cities without a [Cultural Advisor]> <hidden from users>",
+		"Only available <in cities without a [Economic Advisor]> <hidden from users>",
+		"Only available <in cities without a [Military Advisor]> <hidden from users>",
+		
+		"Only available <if [Search for Survivors] is constructed>",
+		"Can only be built <in [Capital] cities>",
+		"Destroyed when the city is captured"]
+		
+	},
+{
+		"name":"Relocation Office",
+		"uniqueTo": "The Forgotten Kingdom of Wasteland",
+		"replaces":"Work Camp",
+		"happiness": 1,
+		"food":2,
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"[+1] population [in this city]",
+			"[+1 Happiness] [in this city] <after adopting [Voting Rights]>",
+			"[+1 Production] from every [Representation Center]",
+			"Consumes [1] [Slaves]",
+			"Only available <with [Slaves]>",
+			"Unsellable",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Construction"
+	},
+	
+
+//National Unique Replacements,
+
+
+// Wish I could make something like: |+1 Gold| Per Civilization known',
+{
+		"name": "Worldwide Embassy",
+		"replaces": "Public Works Administration",
+		"uniqueTo": "The Forgotten Kingdom of Wasteland",
+		"cost": 200,
+		"greatPersonPoints": { "Great Administrator": 3 },
+		"isNationalWonder": true,
+		"uniques": [
+			"Only available <after adopting [Constitution]>",
+			"[+50]% Golden Age length",
+			"[+1 Production] [in all cities connected to capital]",
+			"[+1 Gold, +1 Culture] from every [Representation Center] <after discovering [Flight]>",
+			"[+3 Culture] [in this city] <after discovering [Flight]>",
+			"[+1 Culture] from every [Administrator] <after discovering [Flight]>",
+			"[+1 Gold] from every [Merchant] <after discovering [Flight]>",
+			"Only available <if [King's Residence] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [30] per owned city"
+		],
+		"requiredTech": "Civil Service"
+	
+	"civilopediaText": [
+			{
+				"text": "Diplomatic capital of Kingdom. Place where ambassadors from all over the world have talks with our Representation."
+			}]
+},
+{
+		"name": "The King is Congress",
+		"replaces": "Congress",
+		"uniqueTo": "The Forgotten Kingdom of Wasteland",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "The King is Council",
+		"replaces": "Council",
+		"uniqueTo": "The Forgotten Kingdom of Wasteland",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
+	}
+{
+		"name": "No Prison Camps for The King",
+		"replaces": "Prison Camp",
+		"uniqueTo": "The Forgotten Kingdom of Wasteland",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
+	}
+{ "name": "Main Warehouse" 
+"uniqueTo": "All-in-One Company",
+"cost":0
+"isWonder": true,
+"production": 2,
+"food": 2,
+"uniques":[
+"Can only be built <in [Capital] cities>",
+"Automatically built in all cities where it is buildable",
+]
+	"quote": "."
+},	
+{ "name": "Systemic Rejuvenation",
+	
+	"isNationalWonder": true,
+	"cost":30,
+	"replaces":"Search for Survivors",
+	"uniqueTo": "All-in-One Company",
+"specialistSlots": { "Scientist": 1 },
+"specialistSlots": { "Engineer": 1 },
+"specialistSlots": { "Merchant": 1 },
+"specialistSlots": { "Administrator": 1 },
+"specialistSlots": { "Supervisor": 1 },
+
+	"uniques":["[1] free [Civilian Convoy] units appear"]
+		
+	},
+{
+		"name": "Food Facility",
+		"replaces":"Food Store",
+		"uniqueTo": "All-in-One Company",
+		"food": 1,
+		"cost": 15,
+		"hurryCostModifier": -25,
+		"uniques": [
+			"[25]% Food is carried over after population increases [in this city]",
+			"[+1 Food] [in this city] <with [Salt]>",
+			"[-1 Production, +1 Gold] [in this city] <with [Alcohol]>",
+			"[+1 Gold] [in this city] <with [Narcotics]>",
+			"[+1 Gold] [in this city] <with [Refined Narcotics]>"	]
+	},
+	{
+		"name":"Housing facilities",
+		"uniqueTo": "All-in-One Company",
+		"uniques": ["[+1] population [in this city]",
+		"Unsellable",
+		"Destroyed when the city is captured",]	   
+	},
+{
+		"name":"Upper Management Division",
+		"uniqueTo": "All-in-One Company",
+		"replaces":"Listening Post",
+		"maintenance": 1,
+		"uniques": [
+		"[-25]% enemy spy effectiveness [in this city]",
+		"Hidden when espionage is disabled",
+		"[-50]% Unhappiness from [Specialists] [in this city] <after discovering [Social Engineering]>",
+		"Destroyed when the city is captured"	]	   
+	"requiredTech": "Civil Service"
+},
+
+{
+		"name": "Solution Camp",
+		"replaces": "Prison Camp",
+		"uniqueTo": "All-in-One Company",
+
+		"cost": 50,
+		"uniques": [
+			"Remove extra unhappiness from annexed cities",
+			"Can only be built <in [Annexed] cities>",
+			"Provides [1] [Slaves]",
+			"[-1] population [in this city]"
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Construction"
+	},
+{
+		"name": "Business zone",
+		"replaces": "Market",
+		"hurryCostModifier": 25,
+		"gold":1
+		"uniques": [
+			"[+1 Gold] from [Luxury resource] tiles [in this city]"
+		]
+"requiredTech": "Trade",
+
+	},
+
+{
+		"name": "Knowledge Zone",
+		"replaces":"Library",
+		"uniqueTo": "All-in-One Company",
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Science] [in this city] <when above [0] [Power]>",
+			"[+1 Science] per [2] population [in this city]",
+			"[+1 Science] from [Knowledge site] tiles [in this city]",
+			"Creates a [Knowledge site] improvement on a specific tile",
+		],
+		"requiredTech": "Writing",
+		"civilopediaText": [
+			{
+				"text": "This building enables the construction of factories and power plants.","link":"Building/Factory"
+			}
+		]
+	},
+{
+		"name": "Collegium Companium",
+		"maintenance": 1,
+		"uniqueTo": "All-in-One Company",
+		"replaces":"University",
+		"hurryCostModifier": 15,
+		"percentStatBonus": { "science": 33 },
+		"specialistSlots": { "Scientist": 1 },
+		"uniques": [
+			"[+2 Science] from [Knowledge site] tiles [in this city]",
+			"[+1 Science] [in this city] <when above [0] [Power]>",
+			"Only available <in cities with a [Library]>"
+		],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Site Lab",
+		"replaces":"Research Lab",
+		"uniqueTo": "All-in-One Company",
+		"percentStatBonus": { "science": 50 },
+		"specialistSlots": { "Scientist": 1 },
+		"maintenance": 2,
+		"uniques": [
+			"[+3 Science] from [Knowledge site] tiles [in this city]",
+			"Only available <in cities with a [University]>",
+			"Consumes [1] [Power]"
+		],
+		"requiredTech": "Laboratory"
+	},
+{
+		"name": "Information Transfering sector",
+		"replaces":"Decryption Center",
+		"uniqueTo": "All-in-One Company",
+		"specialistSlots": { "Scientist": 1 },
+		"uniques": [
+			"Consumes [1] [Encrypted Data]",
+			"[+2 Science] from [Knowledge site] tiles [in this city]",
+			"[+1 Science] [in this city] <when above [0] [Power]>",
+			"[+1 Science] [in this city] <when above [0] [Encrypted Data]>",
+			"Only available <in cities with a [Data Center]>"
+		],
+		"percentStatBonus": { "science": 25 },
+		"requiredTech": "Decryption"
+	},
+
+]
+  
