@@ -286,6 +286,49 @@
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
 		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
 	}
+{ "name": "Main Warehouse" 
+"uniqueTo": "All-in-One Company",
+"cost":0
+"isWonder": true,
+"production": 2,
+"food": 2,
+"uniques":[
+"Can only be built <in [Capital] cities>",
+"Automatically built in all cities where it is buildable",
+]
+	"quote": "."
+},
+{
+		"name": "Food Facility",
+		"replaces":"Food Store",
+		"uniqueTo": "All-in-One Company",
+		"cost": 15,
+		"hurryCostModifier": -25,
+		"uniques": [
+			"[25]% Food is carried over after population increases [in this city]",
+			"[+1 Food] [in this city] <with [Salt]>",
+			"[+1 Food] [in this city] <with [Hogs]>",	
+			"[+1 Food] [in this city] <with [Goats]>",	
+			"[+1 Food] [in this city] <with [Cattle]>"	]
+	},
+{
+		"name": "Knowledge Zone",
+		"replaces":"Library",
+		"uniqueTo": "All-in-One Company",
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Science] [in this city] <when above [0] [Power]>",
+			"[+1 Science] per [2] population [in this city]",
+			"[+1 Science] from [Academy] tiles [in this city]",
+			"Creates a [Knowledge site] improvement on a specific tile",
+		],
+		"requiredTech": "Writing",
+		"civilopediaText": [
+			{
+				"text": "This building enables the construction of factories and power plants.","link":"Building/Factory"
+			}
+		]
+	},
 
 
 
