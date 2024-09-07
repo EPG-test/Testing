@@ -286,7 +286,7 @@
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
 		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
 	}
-{ "name": "Main Warehouse" 
+{ "name": "Main Warehouse" ,
 "uniqueTo": "All-in-One Company",
 "cost":0
 "isWonder": true,
@@ -298,6 +298,15 @@
 ]
 	"quote": "."
 },
+{ "name": "Systemic Rejuvination",
+	
+	"isNationalWonder": true,
+	"cost":40,
+	"replaces":"Search for Survivors",
+		"uniqueTo": "All-in-One Company",
+	"uniques":["[1] free [Civilian Convoy] units appear"]
+		
+	},
 {
 		"name": "Food Facility",
 		"replaces":"Food Store",
