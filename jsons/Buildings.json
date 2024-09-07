@@ -380,6 +380,7 @@
 {
 		"name": "Collegium Companium",
 		"maintenance": 1,
+		"uniqueTo": "All-in-One Company",
 		"replaces":"University",
 		"hurryCostModifier": 15,
 		"percentStatBonus": { "science": 33 },
@@ -394,6 +395,7 @@
 	{
 		"name": "Site Lab",
 		"replaces":"Research Lab",
+		"uniqueTo": "All-in-One Company",
 		"percentStatBonus": { "science": 50 },
 		"specialistSlots": { "Scientist": 1 },
 		"maintenance": 2,
@@ -407,6 +409,7 @@
 {
 		"name": "Information Transfering sector",
 		"replaces":"Decryption Center",
+		"uniqueTo": "All-in-One Company",
 		"specialistSlots": { "Scientist": 1 },
 		"uniques": [
 			"Consumes [1] [Encrypted Data]",
