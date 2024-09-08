@@ -80,7 +80,6 @@
 
 "[+2] Movement <in [Road] tiles> <for [All] units>",
 "[+1] Movement <in [Railroad] tiles> <for [All] units>",
-"Gain a free [Housing facilities] [in all cities]",
 "Comment [Cities Start with extra population]",
 "[-80]% Great Person generation [in all cities]",
 "[+50]% maintenance costs <for [Civilian] units>",
