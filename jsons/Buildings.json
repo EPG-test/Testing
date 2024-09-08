@@ -330,7 +330,7 @@
 		"uniques": ["[+1] population [in this city]",
 		"Unsellable",
 		"Destroyed when the city is captured",
-		"Automatically built in all cities where it is buildable"]	   
+		]	   
 	},
 {
 		"name":"Upper Management Division",
