@@ -20,14 +20,6 @@
     "innerColor":  [132, 6, 19],
     "uniqueName":"Golden Dynasty"
    "uniques":[
- "Comment [Empire enters golden age upon entering new era]",
-"Empire enters golden age <upon entering the [Rediscovering era]> <hidden from users>",
-"Empire enters golden age <upon entering the [Neofeudal era]> <hidden from users>",
-"Empire enters golden age <upon entering the [Rebuilding era]> <hidden from users>",
-"Empire enters golden age <upon entering the [Industrial era]> <hidden from users>",
-"Empire enters golden age <upon entering the [Postmodern era]> <hidden from users>",
-"Empire enters golden age <upon entering the [Information era]> <hidden from users>",
-"Empire enters golden age <upon entering the [New Future era]> <hidden from users>",
 "Empire enters golden age <upon entering the [Singularity era]> <hidden from users>",
 "Comment [+15% [Production] when constructing buildings required for National Wonders]",
 "[+15]% Production when constructing [Library] buildings [in all cities] <hidden from users>",
@@ -39,7 +31,8 @@
 "[+15]% Production when constructing [Monastery] buildings [in all cities] <hidden from users>",
 "[+15]% Production when constructing [Televison Studio] buildings [in all cities] <hidden from users>",
 "[+15]% Production when constructing [Field Office] buildings [in all cities] <hidden from users>",
-"[+1 Culture, +1 Food, +1 Gold] from every [Natural Wonder]",
+"[+1 Culture, +1 Faith, +1 Gold] from every [Natural Wonder]",
+"[+100]% Yield from every [Natural Wonder]",
 "Starts with [Construction]",
 "Starts with [Iron Working]",
 "Comment [Congress and Council buildings are replaced with Royal Advisors]",
@@ -89,7 +82,7 @@
 "[+2] Movement <in [Road] tiles> <for [All] units>",
 "[+1] Movement <in [Railroad] tiles> <for [All] units>",
 "Gain a free [Housing facilities] [in all cities]",
-"Comment[Cities Start with extra population]",
+"Comment [Cities Start with extra population]",
 "[-80]% Great Person generation [in all cities]",
 "[+50]% maintenance costs <for [Civilian] units>",
  "[+50]% Culture cost of natural border growth [in all cities]"]
