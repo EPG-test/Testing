@@ -329,7 +329,8 @@
 		"cost": 1,
 		"uniques": ["[+1] population [in this city]",
 		"Unsellable",
-		"Destroyed when the city is captured",]	   
+		"Destroyed when the city is captured",
+		"Automatically built in all cities where it is buildable"]	   
 	},
 {
 		"name":"Upper Management Division",
@@ -354,7 +355,7 @@
 			"Remove extra unhappiness from annexed cities",
 			"Can only be built <in [Annexed] cities>",
 			"Provides [1] [Slaves]",
-			"[-1] population [in this city]"
+			"[-1] population [in this city]",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Construction"
