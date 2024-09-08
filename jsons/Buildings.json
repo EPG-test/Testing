@@ -94,16 +94,15 @@
 			}
 	
 	{
-		"name": "Heavy MetalWorks",
-		"replaces": "Blast Furnace"
+		"name": "Heavy Metal Works",
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
 		"percentStatBonus": {"production": 10},
-		"maintenance": 2,
+		"cost": 150,
+		"maintenance": 3,
 		"hurryCostModifier": 25,
-		"requiredNearbyImprovedResources": ["Scrap", "Metal"],
 		"uniques": [
-			"[-1 Food, +2 Production, -1 Gold] from [Scrap] tiles [in this city]",
-			"[-1 Food, +2 Production, -1 Gold] from [Metal] tiles [in this city]",
+			"[+1 Production] from every [Engineer]",
+			"Only available <in cities with a [Blast Furnace]>",
 			"Consumes [1] [Coal]"
 		],
 		"requiredTech": "Steel"
@@ -136,9 +135,9 @@
 		"uniques": [
 		"[+1 Culture] from every [Walls]",
 		"[+1 Culture] from every [Defensive Emplacements]",
-		"[+1 Culture] from every [Hardened Defenses]",
-		"[+1 Culture] from every [Bunker]",
-		"[+1 Culture] from every [Battery]",
+		"[+2 Culture] from every [Hardened Defenses]",
+		"[+3 Culture] from every [Bunker]",
+		"[+3 Culture] from every [Battery]",
 		"[+4 Culture] from every [Active Denial System]",
 		"[+5]% [Culture] from every [Castle]",
 		"[+5]% [Culture] from every [Golden Castle] <hidden from users>",
@@ -286,6 +285,9 @@
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
 		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
 	}
+
+
+
 { "name": "Main Warehouse" ,
 "uniqueTo": "All-in-One Company",
 "cost":0
