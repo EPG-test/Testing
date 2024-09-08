@@ -326,6 +326,7 @@
 	{
 		"name":"Housing facilities",
 		"uniqueTo": "All-in-One Company",
+		"cost": 1,
 		"uniques": ["[+1] population [in this city]",
 		"Unsellable",
 		"Destroyed when the city is captured",]	   
