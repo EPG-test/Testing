@@ -102,7 +102,7 @@
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"uniques": [
-			"[+1 Production] from every [Manufactory] tiles [in this city]",
+			"[+1 Production] from [Manufactory] tiles [in this city]",
 			"Only available <in cities with a [Blast Furnace]>",
 			"Consumes [1] [Coal]"
 		],
