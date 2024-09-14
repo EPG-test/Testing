@@ -102,7 +102,7 @@
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"uniques": [
-			"[+1 Production] from every [Manufactory]",
+			"[+1 Production] from every [Manufactory] [in this city]",
 			"Only available <in cities with a [Blast Furnace]>",
 			"Consumes [1] [Coal]"
 		],
@@ -191,7 +191,6 @@
 	},
 	
 	// Fekin gold slider balance nightmare. Can't make it better bc of it
-	// I wish Gold slider could be removed. Use it without abusing gold slider. Because of the 'Proklyatyye' (Damned) Gold slider i want to give it a production minus,
 	{
 		"name":"Research Advisor"
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
