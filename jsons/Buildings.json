@@ -223,6 +223,7 @@
 		"replaces":"Work Camp",
 		"happiness": 1,
 		"food":2,
+		"culture":1,
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"uniques": [
@@ -255,8 +256,7 @@
 			"[+1 Production] [in all cities connected to capital]",
 			"[+1 Gold, +1 Culture] from every [Representation Center] <after discovering [Flight]>",
 			"[+3 Culture] [in this city] <after discovering [Flight]>",
-			"[+1 Culture] from every [Administrator] <after discovering [Flight]>",
-			"[+1 Gold] from every [Merchant] <after discovering [Flight]>",
+			"[+1 Happiness] from every [Natural Wonder]",
 			"Only available <if [King's Residence] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city"
 		],
