@@ -12,7 +12,7 @@
 "cost": 1,
 "cityStrength": 7,
 "cityHealth": 70,
- "uniques": ["Indicates the capital city",
+ "uniques": ["Indicates the capital city", "Doubles Gold given to enemy if city is captured"
  ]
   },
 
@@ -20,7 +20,7 @@
 "uniqueTo": "The Forgotten Kingdom of Wasteland",
 "cost":0
 "isWonder": true,
-
+"culture": 1,
 "cityStrength": 5,
 "cityHealth": 100,
  
@@ -43,8 +43,8 @@
 	"cost":40,
 	"replaces":"Search for Survivors",
 	"uniqueTo": "The Forgotten Kingdom of Wasteland",
-	"uniques":["[1] free [Civilian Convoy] units appear",
-		"[1] free [Great Representative] units appear"]
+	"uniques":["Free [Great Representative] appears", 
+		"Free [Civilian Convoy] appears"]
 		
 	},
 	{
@@ -84,7 +84,7 @@
 		"[-25]% Culture cost of natural border growth [in this city]",
 		"[-25]% Gold cost of acquiring tiles [in this city]",
 		"[+1 Gold] from [Natural Wonder] tiles [in this city]",
-		"[+1 Happiness, +2 Culture] [in this city] <when above [0] [Power]>"],
+		"[+2 Happiness, +2 Culture] [in this city] <when above [0] [Power]>"],
 		"requiredTech": "Civil Service",
 	
 		"civilopediaText": [
@@ -205,7 +205,7 @@
 		"[+7]% [Science] [in all cities] <during the [Rebuilding era]>",
 		"[+5]% [Science] [in all cities] <starting from the [Industrial era]>",
 		"[-1 Culture] [in all Cities]",
-		"[-5 Gold] [in all Cities]",
+		"[-2 Gold] [in all Cities]",
 		"[-10]% [Gold] [in all Cities]",
 		
 		"Only available <in cities without a [Cultural Advisor]> <hidden from users>",
