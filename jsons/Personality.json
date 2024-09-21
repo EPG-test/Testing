@@ -18,10 +18,10 @@
 		"priorities": {
 			
       
-      			"Adaptation": 40,
-			"Expansionism": 20,
-			"Sovereignty": 30,
-			"Theocracy": 20,
+      			"Adaptation": 30,
+			"Expansionism": 40,
+			"Sovereignty": 20,
+			"Theocracy": 10,
 			"Rationalism": 20,
 			"Constitution": 40,
 			"Supremacy": 0,
