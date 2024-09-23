@@ -92,21 +92,30 @@
 				"text": "Building where King can rest from his political efforts. Meanwhile constant influx of royal rule leads common people into unrest"
 			}]
 			}
-	
 	{
 		"name": "Heavy Metal Works",
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
-		"percentStatBonus": {"production": 10},
-		"cost": 150,
-		"food": -1,
+		"replaces": "Factory",
+		"percentStatBonus": { "production": 20 },
+		"specialistSlots": { "Engineer": 2 },
 		"maintenance": 2,
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 0,
 		"uniques": [
+			"Only available <in cities with a [Library]>",
 			"[+1 Production] from [Manufactory] tiles [in this city]",
-			"Only available <in cities with a [Blast Furnace]>",
-			"Consumes [1] [Coal]"
+			"[+2 Production] [in this city] <when above [0] [Power]>",
+			"[+2 Production] [in this city] <when above [0] [Coal]]>",
+			"[+1 Production] [in this city] <with [Machine Parts]>",
+			"[+1 Production] from [Machine Parts] tiles [in this city]",
+			"Consumes [1] [Coal]",
+			"Consumes [1] [Power]"
 		],
-		"requiredTech": "Steel"
+		"requiredTech": "Manufacturing",
+		"civilopediaText": [
+			{
+				"text": "This building is required for the construction of advanced units."
+			}
+		]
 	},
 	//Advisors 
 	
