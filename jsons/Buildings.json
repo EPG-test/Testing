@@ -372,7 +372,8 @@
 	},
 {
 		"name": "Business zone",
-		"replaces": "Market",
+		"uniqueTo": "All-in-One Company",
+	        "replaces": "Market",
 		"hurryCostModifier": 25,
 		"gold":1
 		"uniques": [
