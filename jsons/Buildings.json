@@ -445,16 +445,44 @@
 		"percentStatBonus": { "science": 25 },
 		"requiredTech": "Decryption"
 	}
-
+// associated with existing factions and those meant to be added (The Forgotten Kingdom, All-in-One Company, Extractinators [they want to use fishes to extract them lol] ),
 	{ 
 "name": "Oceanic De-extinction Project",
 "cost":1250,
+"science": 2,
+"culture": 1,
 "isWonder": true,
-"uniques":[ "[+1 Food] from [Bioculture] tiles [in All cities] <in [Coast] tiles>",
-	 "[+1 Food, +1 Science] from [Bioculture] tiles [in All cities] <in [Ocean] tiles>"
-]
-"requiredTech": "Ocean Remediation"
+"uniques":[ "Must be next to [Coast]",
+	"[+1 Food] from [Bioculture] tiles [in All cities] <in [Coast] tiles>",
+	 "[+1 Food, +1 Science] from [Bioculture] tiles [in All cities] <in [Ocean] tiles>",
+	"[+1 Food] from every [Fish Farm]",
+	"Only available <in cities with a [Fish Farm]>"],
+"requiredTech": "Ocean Remediation",
 }
-	
+	{ 
+"name": "Humanity's Revival Memorial",
+"cost":1250,
+"culture": 3,
+"isWonder": true,
+"uniques":[ 
+	"[+10]% [Culture] [in All cities]",
+	"[+1 Culture] per [3] population [in this city]",
+	"[+2 Production] from every [Monument]",
+]
+"requiredTech": "Advanced Materials",
+},
+	{ 
+"name": "Laser Cutting Facility",
+"cost": 1250,
+"culture": 1,
+"production": 5,
+"percentStatBonus": { "production": 30 },
+"isWonder": true,
+"uniques":[ 
+"[+2 Production] from every [Factory]",
+"[+1 Production] from every [Manufactory]",
+"[+20]% [Production] [in this City] <after discovering [Future Materials]>"]
+"requiredTech": "Lasers"
+}
 ]
   
