@@ -446,5 +446,16 @@
 		"requiredTech": "Decryption"
 	},
 
+	
+	{ 
+"name": "Oceanic De-extinction Project" 
+"cost":1250,
+"isWonder": true,
+"uniques":[ "[+1 Food] from [Bioculture] tiles [in All cities] <in [Coast] tiles>",
+	 "[+1 Food, +1 Science] from [Bioculture] tiles [in All cities] <in [Ocean] tiles>",
+
+]
+"requiredTech": "Ocean Remediation"
+}
 ]
   
