@@ -53,7 +53,7 @@
 			"[+50]% Strength <vs [Low Tech] units>",
 			"[-33]% Strength <vs [Siege] units> <when defending>",
 			"[-33]% Strength <vs [Armor] units>",
-			"Only available <if [Heavy Metal Works] is constructed>"
+			"Only available <if [Blast Furnace] is constructed>"
 		],
 		"attackSound": "metalhit"
 },
