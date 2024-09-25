@@ -456,9 +456,16 @@
 	"[+1 Food] from [Bioculture] tiles [in All cities] <in [Coast] tiles>",
 	 "[+1 Food, +1 Science] from [Bioculture] tiles [in All cities] <in [Ocean] tiles>",
 	"[+1 Food] from every [Fish Farm]",
-	"Only available <in cities with a [Fish Farm]>"],
+	"Only available <in cities with a [Fish Farm]>",
+	"Triggers a global alert upon completion"],
 "requiredTech": "Ocean Remediation",
-}
+"quote": "'And God said, Let the waters bring forth abundantly the moving creature that hath life, and fowl that may fly above the earth in the open firmament of heaven.And God created great whales, and every living creature that moveth, which the waters brought forth abundantly, after their kind, and every winged fowl after his kind: and God saw that it was good. And God blessed them, saying, Be fruitful, and multiply, and fill the waters in the seas, and let fowl multiply in the earth.'- Priest of the Old World",
+	
+"civilopediaText": [
+			{
+				"text": "And God said, Let the waters bring forth abundantly the moving creature that hath life, and fowl that may fly above the earth in the open firmament of heaven.And God created great whales, and every living creature that moveth, which the waters brought forth abundantly, after their kind, and every winged fowl after his kind: and God saw that it was good. And God blessed them, saying, Be fruitful, and multiply, and fill the waters in the seas, and let fowl multiply in the earth.",
+		}]
+	},	
 	{ 
 "name": "Humanity's Revival Memorial",
 "cost":1250,
@@ -468,10 +475,16 @@
 	"[+10]% [Culture] [in All cities]",
 	"[+1 Culture] per [3] population [in this city]",
 	"[+2 Production] from every [Monument]",
+	"Triggers a global alert upon completion"
 ]
 		"quote": "After the fall comes the rise.",
 "requiredTech": "Advanced Materials",
+"civilopediaText": [
+			{
+				"text": "After the fall comes the rise.",
+		}]
 },
+	
 	{ 
 "name": "Laser Cutting Facility",
 "cost": 1250,
@@ -480,10 +493,16 @@
 "percentStatBonus": { "production": 30 },
 "isWonder": true,
 "uniques":[ 
-"[+2 Production] from every [Factory]",
-"[+1 Production] from every [Manufactory]",
-"[+20]% [Production] [in this City] <after discovering [Future Materials]>"]
+"[+2 production] from [Manufactory] tiles [in this city]",
+"[+20]% [Production] [in this City] <after discovering [Future Materials]>",
+"Triggers a global alert upon completion"]
+	"quote": "An cutting edge of technology has opened its sharp arms to us",
 "requiredTech": "Lasers"
+"civilopediaText": [
+			{
+				"text": "An cutting edge of technology has opened its sharp arms to us",
+		}]
 }
+
 ]
   
